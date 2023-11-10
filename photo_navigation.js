@@ -1,0 +1,1 @@
+jQuery(function( $ ) { var key = {}; key['37'] = "#linkPrev"; key['39'] = "#linkNext"; $( document ).on( "keyup", function(event) { var href, selector = key[ event.which ]; if ( selector ) { href = $( selector ).attr( "href" ); if ( href ) { window.location = href; } } }); });
