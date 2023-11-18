@@ -1,0 +1,1 @@
+$(document).bind("mobileinit",function(){$.extend($.mobile,{ajaxEnabled:!1,hashListeningEnabled:!1,pushStateEnabled:!1})});
